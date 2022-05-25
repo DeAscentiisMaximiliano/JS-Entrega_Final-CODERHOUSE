@@ -205,7 +205,7 @@ function alertHomero(){
         title: "El producto fue añadido al carrito",
         width: "24rem",
         background: "rgb(181, 181, 181)",
-        imageUrl: "/img/otros/logo-empresa.png",
+        imageUrl: "img/otros/logo-empresa.png",
         imageWidth: 200,
         imageHeight: 200,
         showCancelButton: true,
@@ -236,7 +236,7 @@ function toastHomero(){
     });
     Toast.fire({
         title: "Producto eliminado",
-        imageUrl: "/img/otros/logo-empresa.png",
+        imageUrl: "img/otros/logo-empresa.png",
         imageWidth: 150,
         imageHeight: 200,
     });

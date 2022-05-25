@@ -38,7 +38,7 @@ carritoVaciar.addEventListener("click", ()=>{
         Swal.fire({
             title: "¿Estás seguro que deseas vaciar el carrito?",
             background: "rgb(181, 181, 181)",
-            imageUrl: "/img/otros/logo-empresa.png",
+            imageUrl: "img/otros/logo-empresa.png",
             imageWidth: 300,
             imageHeight: 300,
             showCancelButton: true,
@@ -51,7 +51,7 @@ carritoVaciar.addEventListener("click", ()=>{
                 Swal.fire({
                     title: "Productos eliminados",
                     background: 'rgb(181, 181, 181)',
-                    imageUrl: "/img/otros/logo-empresa.png",
+                    imageUrl: "img/otros/logo-empresa.png",
                     imageWidth: 250,
                     imageHeight: 250,
                     confirmButtonColor: "grey",

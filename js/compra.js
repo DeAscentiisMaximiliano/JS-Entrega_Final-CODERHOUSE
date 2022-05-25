@@ -106,7 +106,7 @@ function codigoDescuento(){
             });
             Toast.fire({
                 title: "¡¡FELICITACIONES!!",
-                imageUrl: "/img/otros/logo-empresa.png",
+                imageUrl: "img/otros/logo-empresa.png",
                 imageWidth: 200,
                 imageHeight: 200,
             });
@@ -393,7 +393,7 @@ yaPague.addEventListener("click", async ()=>{
         reader.onload = (e) => {
             Swal.fire({
                 title: 'Su operación está siendo procesada. En las próximas 24hs usted recibirá un correo con la confirmación de la transacción. Muchas gracias!',
-                imageUrl: "/img/otros/logo-empresa.png",
+                imageUrl: "img/otros/logo-empresa.png",
                 imageWidth: 350,
                 imageHeight: 200,
             })
@@ -421,7 +421,7 @@ muchasGracias2.disabled = true;
 yaPague2.addEventListener("click", ()=>{
     Swal.fire({
         title: 'Su operación está siendo procesada. En las próximas 24hs usted recibirá un correo con la confirmación de la transacción. Muchas gracias!',
-        imageUrl: "/img/otros/logo-empresa.png",
+        imageUrl: "img/otros/logo-empresa.png",
         imageWidth: 350,
         imageHeight: 200,
     })
